@@ -3,9 +3,14 @@ As this paper is in submission, the author information for this paper is not pub
 
 
 ## Usage
-1.  Install [Keras v2.0], scikit-learn and git
+1. Install [Keras v2.0], scikit-learn and git
 sudo pip install keras scikit-learn
 sudo apt-get install git
+2. Clone the code to local.
+git clone https://github.com/FlyingDwarfViolaMelon/DCECC.git DCECC
+3. Prepare datasets.
+cars.mat sharon.mat
+4. Run experiment on dataset
+5. Get S base clusterings by main.py parallelly
+6. Obtain the final robust ensemble clustering result by Running_DCECC.m
 
-2.Clone the code to local.
-git clone 
