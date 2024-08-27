@@ -7,7 +7,7 @@ As this paper is in submission, the author information for this paper is not pub
 sudo pip install keras scikit-learn
 sudo apt-get install git
 2. Clone the code to local.
-git clone https://github.com/FlyingDwarfViolaMelon/DCECC.git DCECC
+git clone https://github.com/FlyingDwarfViolaMelon/CEDECC.git CEDECC
 3. Prepare datasets.
 cars.mat sharon.mat
 4. Run experiment on dataset
