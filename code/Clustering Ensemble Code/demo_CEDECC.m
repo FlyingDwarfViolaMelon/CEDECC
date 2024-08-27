@@ -1,8 +1,8 @@
-% This is a demo for the DCECC clustering ensemble algorithms.      %
+% This is a demo for the CEDECC clustering ensemble algorithms.      %
 % If you find this code useful for your research, please cite the   %
 % paper after de-anonymised.                                        %
 
-function [pred_Result, time] = demo_DCECC(argument)
+function [pred_Result, time] = demo_CEDECC(argument)
 
 dataName = argument.dataName;
 M = argument.M;
