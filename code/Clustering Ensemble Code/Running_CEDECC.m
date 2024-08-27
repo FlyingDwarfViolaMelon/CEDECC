@@ -7,11 +7,11 @@ addpath(genpath(pwd))
 dataName = 'cars_result'; 
 M = 20; % Ensemble size
 runtime = 20; % How many times will be run.
-argument.DCECC.dataName = dataName; 
-argument.DCECC.M = M; 
-argument.DCECC.cntTimes = runtime;
-DCECC_argument = argument.DCECC;
-[DCECC.pred, DCECC.time] = demo_DCECC(DCECC_argument);
+argument.CEDECC.dataName = dataName; 
+argument.CEDECC.M = M; 
+argument.CEDECC.cntTimes = runtime;
+CEDECC_argument = argument.CEDECC;
+[CEDECC.pred, CEDECC.time] = demo_CEDECC(CEDECC_argument);
 
-clear dataName DCECC_argument M runtime argument;
+clear dataName CEDECC_argument M runtime argument;
 
