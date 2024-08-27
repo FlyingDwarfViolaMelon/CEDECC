@@ -1,4 +1,4 @@
-% This is a demo for the DCECC clustering ensemble algorithms.      %
+% This is a demo for the CEDECC clustering ensemble algorithms.      %
 % If you find this code useful for your research, please cite the   %
 % paper after de-anonymised.  
 
