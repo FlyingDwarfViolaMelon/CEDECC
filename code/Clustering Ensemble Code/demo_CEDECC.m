@@ -35,15 +35,15 @@ for runIdx = 1:cntTimes
     
     %% Compute ECE
     ECE = computeECE(bcs, baseClsSegs, para_theta);
-    resultsDCECC = CE(bcs, baseClsSegs, ECE, clsNums);     
+    resultsCEDECC = CE(bcs, baseClsSegs, ECE, clsNums);     
     t2 = clock;
-    if min(resultsDCECC) == 0
-        resultsDCECC = resultsDCECC + 1;
+    if min(resultsCEDECC) == 0
+        resultsCEDECC = resultsCEDECC + 1;
     end
     
-    pred_DCECC(:,runIdx) = resultsDCECC;
-    DCECC_time(runIdx) = etime(t2,t1);  
+    pred_CEDECC(:,runIdx) = resultsCEDECC;
+    CEDECC_time(runIdx) = etime(t2,t1);  
 end
-DCECC_time = mean(DCECC_time);
-pred_Result = {pred_DCECC};
-time = DCECC_time;
+CEDECC_time = mean(CEDECC_time);
+pred_Result = {pred_CEDECC};
+time = CEDECC_time;
