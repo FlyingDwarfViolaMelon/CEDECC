@@ -16,14 +16,24 @@ cars.mat sharon.mat
 
 
 @article{bxae101,
+
     author = {Zeng, Lingbin and Yao, Shixin and Liu, Xinwang and Xiao, Liquan and Qian, Yue},
+    
     title = "{A clustering ensemble algorithm for handling deep embeddings using cluster confidence}",
+    
     journal = {The Computer Journal},
+    
     pages = {bxae101},
+    
     year = {2024},
+    
     month = {10},
+    
     issn = {0010-4620},
+    
     doi = {10.1093/comjnl/bxae101},
+    
     url = {https://doi.org/10.1093/comjnl/bxae101},
+    
     }
 
