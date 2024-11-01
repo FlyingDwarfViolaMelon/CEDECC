@@ -11,6 +11,6 @@ git clone https://github.com/FlyingDwarfViolaMelon/CEDECC.git CEDECC
 3. Prepare datasets.
 cars.mat sharon.mat
 4. Run experiment on dataset
-5. Get S base clusterings by main.py parallelly
+5. Get S base clusterings
 6. Obtain the final robust ensemble clustering result by Running_CEDECC.m
 
